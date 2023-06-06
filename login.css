@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-blue);
+    color: #0d2541;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.small {
+    font-size: 80%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left {
+    height: 100%;
+    background: url(images/blue.jpg);
+    background-size: cover;
+}
+
+.left,
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.right .copy {
+    color: black;
+    text-align: center;
+}
+
+.right .copy p {
+    margin: 1.5em 0;
+    font-size: 0.875rem;
+}
+
+.right form {
+    width: 328px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+    padding: 1em;
+    margin-bottom: 1.25rem;
+    font-size: 0.575rem;
+}
+
+.input-container,
+.password {
+    position: relative;
+}
+
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-box {
+    margin-left: 5px;
+    font-size: smaller;
+}
+
+.fg-password {
+    margin-left: 150px;
+    font-size: x-small;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0d2541;
+    border-radius: 10px;
+}
+
+.copy-legal {
+    margin: 7px;
+}
